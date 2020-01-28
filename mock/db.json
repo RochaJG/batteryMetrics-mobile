@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Bill",
+      "lastName": "Gates",
+      "email": "bill@microsoft.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Steve",
+      "lastName": "Jobs",
+      "email": "steve@apple.com"
+    }
+  ],
+  "phones": [
+    {
+      "id": 1,
+      "model": "Mi 9T",
+      "vendor": "Xiaomi"
+    }
+  ]
+}
