@@ -6,17 +6,17 @@
  * @flow
  */
 
-import React, { Fragment } from "react";
-import { StatusBar } from "react-native";
+import React from 'react';
+import {StatusBar} from 'react-native';
 
-import Status from "./components/Status";
+import Status from './components/Status';
 
-const App = () => {
+const App: () => React$Node = () => {
   return (
-    <Fragment>
+    <>
       <StatusBar barStyle="dark-content" />
       <Status />
-    </Fragment>
+    </>
   );
 };
 

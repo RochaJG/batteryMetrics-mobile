@@ -4,24 +4,27 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node mockServer.js & react-native start",
+    "mock-server": "node mockServer.js",
+    "android": "yarn mock-server & react-native run-android",
+    "ios": "yarn mock-server & react-native run-ios",
+    "start": "yarn mock-server & react-native start",
     "test": "jest"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "react": "16.8.6",
-    "react-native": "0.60.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/runtime": "^7.3.1",
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.3",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "json-server": "^0.15.1",
-    "metro-react-native-babel-preset": "^0.54.1",
-    "react-test-renderer": "16.8.6"
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
