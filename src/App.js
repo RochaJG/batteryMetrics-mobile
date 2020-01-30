@@ -11,7 +11,7 @@ import {StatusBar} from 'react-native';
 
 import Status from './components/Status';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
